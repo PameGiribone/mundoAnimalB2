@@ -50,7 +50,7 @@ public class SecurityConfig implements WebMvcConfigurer {
         CorsConfiguration configuration = new CorsConfiguration();
         
         // Permitir petshopvalu.store
-        configuration.setAllowedOrigins(List.of("https://petshopvalu.store",  "https://92.112.177.42:8443"));
+        configuration.setAllowedOrigins(List.of("https://petshopvalu.store"));
         
         // Permitir los métodos necesarios
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));

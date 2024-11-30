@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Spring Boot App",
+        "request": "launch",
+        "mainClass": "com.backend.mundoAnimal.MundoAnimalApplication",
+        "projectName": "mundoAnimal",
+        "args": ""
+      }
+    ]
+  }
+  
